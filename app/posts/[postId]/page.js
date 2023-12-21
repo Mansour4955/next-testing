@@ -5,7 +5,7 @@ export default async function PostDetailsPage({ params }) {
   const postId = params.postId;
   const loadingJSX = (
     <div className="flex justify-center w-full">
-      <h3 className="text-3xl text-yellow-300">// Loading... //</h3>
+      <h3 className="text-3xl text-yellow-300"> Wait... </h3>
     </div>
   );
   return (
